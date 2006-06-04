@@ -1,11 +1,10 @@
-######		Unknown group!
 Summary:	KSMS-Tool
 Summary(pl):	KSMS-Tool
 Name:		ksmstool
 Version:	1.0
 Release:	0.1
-License:	CHECK FIRST!
-Group:		GPL
+License:	GPL
+Group:		X11/Applications
 Source0:	%{name}-%{version}-0.tar.gz
 # Source0-md5:	36df76b1136bf5efa1109bfdec80b5b7
 URL:		http://www.kde-apps.org/content/show.php?content=40298
