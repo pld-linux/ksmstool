@@ -2,7 +2,7 @@ Summary:	KSMS-Tool
 Summary(pl):	KSMS-Tool
 Name:		ksmstool
 Version:	1.0
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	%{name}-%{version}-0.tar.gz
@@ -22,6 +22,8 @@ mobile phones, please visit the KSMS-Tool homepage.
 %setup -q -n %{name}
 
 %build
+export QTDIR=%{_prefix}
+export QMAKESPEC=%{_datadir}/qt/mkspecs/linux-g++
 qmake
 %{__make}
 
