@@ -1,5 +1,5 @@
-Summary:	KSMS-Tool
-Summary(pl):	KSMS-Tool
+Summary:	KSMS-Tool - tool to send SMS via mobile phone
+Summary(pl):	KSMS-Tool - narzêdzie do wysy³ania SMS-ów przez telefon komórkowy
 Name:		ksmstool
 Version:	1.0
 Release:	1
@@ -17,6 +17,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a tool for sending SMS via your mobile phone. In principle,
 every modern mobile phone should be supported; for a list of tested
 mobile phones, please visit the KSMS-Tool homepage.
+
+%description -l pl
+Jest to narzêdzie do wysy³ania SMS-ów przez telefon komórkowy. W
+zasadzie ka¿dy wspó³czesny telefon powinien byæ obs³ugiwany; listê
+przetestowanych telefonów mo¿na zobaczyæ na stronie domowej projektu.
 
 %prep
 %setup -q -n %{name}
