@@ -1,5 +1,5 @@
 Summary:	KSMS-Tool - tool to send SMS via mobile phone
-Summary(pl.UTF-8):   KSMS-Tool - narzędzie do wysyłania SMS-ów przez telefon komórkowy
+Summary(pl.UTF-8):	KSMS-Tool - narzędzie do wysyłania SMS-ów przez telefon komórkowy
 Name:		ksmstool
 Version:	1.0
 Release:	1
